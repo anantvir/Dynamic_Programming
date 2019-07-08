@@ -5,7 +5,7 @@
 # p[1] = r[1] where p[i] = price of i inches of rod and r[i] = revenue from i inches of rod
 # Similarly for 2 inches of rod, revenue can be maximized by choosing max of ( p[1] + r[1] or p[2] + r[0])
 # Similarly for 3 inches of rod, revenue can be maximized by choosing max of ( p[1] + r[2] or p[2] + r[1],p[3] + r[0])
-# Similarly for 3 inches of rod, revenue can be maximized by choosing max of ( p[1] + r[3] or p[2] + r[2],p[3] + r[1],p[4] + r[0]) and so on !
+# Similarly for 4 inches of rod, revenue can be maximized by choosing max of ( p[1] + r[3] or p[2] + r[2],p[3] + r[1],p[4] + r[0]) and so on !
 
 
 def Rod_Cutting_Bottom_Up(p,n):             # n = length of rod, p = array of prices for each inch
