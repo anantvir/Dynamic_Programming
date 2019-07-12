@@ -4,7 +4,7 @@
 
 # This is nth Catalan number :   https://en.wikipedia.org/wiki/Catalan_number
 
-def Total_Unique_BST_Possible(n):
+def Possible_BST(n):
     T = [0] * 50                # Size of Table/array can be changed depending on value of n
     T.insert(0,1)
     T.insert(1,1)
@@ -13,7 +13,7 @@ def Total_Unique_BST_Possible(n):
             T[i] = T[i] + T[j] * T[i-j-1]
     return T
 
-print(Total_Unique_BST_Possible(5))
+print(Possible_BST(5))
 
 
 
