@@ -17,7 +17,7 @@ def Work_Break(s,wordDict):         # Logic is almost same as matrix chain multi
                     return True
     return False
                
-s='@catsandog'
+s='@catsandog'              # String starts from @ - a random special character just to keep the problem simple
 arr = ["cats", "dog", "sand", "and", "cat"]
 print(Work_Break(s,arr))
                 
