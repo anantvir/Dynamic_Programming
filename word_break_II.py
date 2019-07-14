@@ -23,30 +23,3 @@ Word_Break_II(s,wd,result,found_list)
 
 
 
-
-
-
-# stack = []
-# def Word_Break_II(s,wd):
-#     wd.sort(key=len)
-#     if len(s) == 0:
-#         print('Stack')
-#     if len(s) < len(wd[0]):
-#         stack.pop()
-#     n = len(s) - 1
-#     for l in range(1,n+1):
-#         for i in range(1,n-l+2):
-#             j = i + l - 1
-#             print(s[i:j+1])
-#             if s[i:j+1] in wd:
-#                 stack.append(s[i:j+1])
-#                 Word_Break_II(s.replace(s[i:j+1],"",1),wd)
-            
-
-# Word_Break_II(s,wd)
-
-
-
-
-
-
