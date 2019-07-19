@@ -1,4 +1,4 @@
-"""Source- Leetcode, Statement - Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area."""
+"""Problem- Leetcode, Statement - Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area."""
 # Brute force is O(mn^2) its still acceptable, Dynamic Programming solutions is not as intuitive as Matrix chain, LCS or rod cutting etc.
 
 matrix = [[1,0,1,0,0],[1,0,1,1,1],[1,1,1,1,1],[1,0,0,1,0]]
@@ -31,4 +31,6 @@ def Maximal_Square(M):
                 if length > maxLength:
                     maxLength = length
     return maxLength**2
+
+    
 print(Maximal_Square(matrix))
